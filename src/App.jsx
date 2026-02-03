@@ -124,7 +124,7 @@ function App() {
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <a
-                href="/downloads/Pulse-Check-Setup.exe"
+                href={`${import.meta.env.BASE_URL}downloads/Pulse-Check-Setup.exe`}
                 download
                 className="rounded-full bg-aurora px-6 py-3 text-sm font-semibold text-slate-900 shadow-glow transition hover:-translate-y-0.5 hover:shadow-lg"
               >
@@ -354,7 +354,7 @@ function App() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="/downloads/Pulse-Check-Setup.exe"
+                  href={`${import.meta.env.BASE_URL}downloads/Pulse-Check-Setup.exe`}
                   download
                   className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:shadow-lg"
                 >
