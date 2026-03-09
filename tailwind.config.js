@@ -25,11 +25,21 @@ export default {
           '0%': { backgroundPosition: '0% 50%' },
           '100%': { backgroundPosition: '100% 50%' },
         },
+        'modal-backdrop-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'modal-content-in': {
+          '0%': { opacity: '0', transform: 'scale(0.95)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
       },
       animation: {
         'fade-in-up': 'fade-in-up 0.9s ease-out forwards',
         float: 'float 6s ease-in-out infinite',
         shimmer: 'shimmer 6s ease infinite',
+        'modal-backdrop-in': 'modal-backdrop-in 0.2s ease-out forwards',
+        'modal-content-in': 'modal-content-in 0.25s ease-out forwards',
       },
     },
   },
