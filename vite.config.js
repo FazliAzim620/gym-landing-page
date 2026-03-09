@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Relative base: assets load correctly at any URL (e.g. .../gym-landing-page/)
-  base: './',
+  base: '/gym-landing-page/',
 })
